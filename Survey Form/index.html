@@ -11,9 +11,11 @@
     <header>
         <h1>Sky High School</h1>
     </header>
+<div class="wrapper">
     <div>
         <h2>Winter Classes Survey Form</h2>
     </div>
+<div class="in-form">
    <form>
     <section>
         <label>Name</label>
@@ -28,8 +30,30 @@
         </select> <br>
         <label>Roll Number</label>
         <input type="number" min="1" max="32"/> <br>
+        <P> Choose Your Subjects </P>
+        <input type="checkbox" id="maths"/>
+        <label for="maths">Maths</label><br>
+        <input type="checkbox" id="english"/>
+        <label for="english">English</label><br>
+        <input type="checkbox" id="physics"/>
+        <label for="physics">Physics</label><br>
+        <input type="checkbox" id="chemistry"/>
+        <label for="chemistry">chemistry</label><br>
+        <input type="checkbox" id="cs"/>
+        <label for="cs">Computer Science</label><br>
+        <p>Choose Time Slot </p>
+        <input type="radio" id="t1" name="tslot"/>
+        <label for="t1">8AM - 11AM</label><br>
+        <input type="radio" id="t2" name="tslot"/>
+        <label for="t2">11AM - 2PM</label><br>
+        <input type="radio" id="t3" name="tslot"/>
+        <label for="t3">2PM - 5PM</label><br>
     </section>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">Clear</button>
    </form>
+</div>  
+</div>  
     
     
 </body>
