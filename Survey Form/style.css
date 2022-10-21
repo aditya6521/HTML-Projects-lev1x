@@ -2,7 +2,9 @@
     margin:0;
 }
 header{
-    background-color: brown;
+    background-color: rgb(156, 85, 236);
+    text-align: center;
+    
 }
 .wrapper{
     width:max-content;
@@ -10,8 +12,15 @@ header{
     padding: 5rem;
 }
 form{
-    padding: 2rem;
-    background-color: blanchedalmond;
+    padding: 4rem;
+    background-color: rgb(199, 238, 148);
     border-radius: 1rem;
+    text-align: left;
 
+}
+input{
+    padding-top: 0.2rem;
+}
+label{
+    padding: 0.5rem;
 }
